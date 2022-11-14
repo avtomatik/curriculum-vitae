@@ -8,7 +8,7 @@
 
 % Create job position command. Parameters: company, position, location, when
 \newcommand{\resumeHeading}[4]{\runsubsection{\uppercase{#1}}\descript{ | #2}\hfill\location{#3 | #4}\fakeNewLine}
-
+ 
 % Create education heading. Parameters: Name, degree, location, when
 \newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
 \descript{#2}\fakeNewLine}
@@ -32,15 +32,15 @@
 %--------------------------------------------------------------
 %     Profile
 %--------------------------------------------------------------
-\newcommand{\yourName}{First Last}
+\newcommand{\yourName}{Alexander Mikhailov}
 % How you want it to show up on the resume
-\newcommand{\yourWebsite}{abdullaharif.tech}
-% vs how you want it to show up. If it's you can just replace "\yourWebsiteLink" with "yourWebsite"
-\newcommand{\yourWebsiteLink}{https://abdullaharif.tech}
-\newcommand{\yourEmail}{someEmail@edu.com}
-\newcommand{\yourPhone}{1-234-567-890}
-\newcommand{\githubUserName}{aarif123456}
-\newcommand{\linkedInUserName}{abdullaharif98}
+\newcommand{\yourWebsite}{website.com}
+% vs how you want it to show up. If it's the same you can just replace "\yourWebsiteLink" with "yourWebsite"
+\newcommand{\yourWebsiteLink}{https://website.com}
+\newcommand{\yourEmail}{alexander.mikhailoff@gmail.com}
+\newcommand{\yourPhone}{+7 (926) 419-78-25}
+\newcommand{\githubUserName}{avtomatik}
+\newcommand{\linkedInUserName}{alexander-mikhailov-59a84243}
 
 % An alternate profile section 
 % \alignProfileTable
@@ -68,9 +68,10 @@
 %--------------------------------------------------------------
 \section{Education}
 % Put school first and degree second if your school is reputable
-\educationHeading{BSc. Honours Computer Science With Software Engineering Specialization}{University of Windsor}{Windsor, ON}{Jun 2021}
+\educationHeading{PhD Mathematical and Instrumental Methods of Economics}{State University of Management, Information Systems Institute}{Moscow, Russia}{On Hold}
 
-\teacherAssistant{World Wide Web Information Systems Development}
+\educationHeading{Specialist Magna Cum Laude Management}{State University of Management, National and World Economy Institute}{Moscow, Russia}{Jun 2011}
+
 % \courseWork{Data Structures and Algorithms; Operating Systems;  Computer Security; Software Testing; Advanced Networking; Big Data Analytics}
 \sectionsep
 
@@ -78,27 +79,43 @@
 %     Experience
 %--------------------------------------------------------------
 \section{Work Experience}
-\resumeHeading{Amazon}{Software Development Engineer Intern}{Toronto, ON}{May 2020 – Aug 2020}
+\resumeHeading{Willis Towers Watson}{Broker}{Moscow, Russia}{Nov 2018 - Nov 2022}
 \begin{bullets}
-    \item Designed and implemented a dashboard using \textbf{React} and \textbf{TypeScript} to visualize data stored in \textbf{DynamoDB}, decreasing time to understand delivery driver work sessions by over 10 times.
-    %  \item Here is another bullet that I might choose to uncomment for some jobs
-    \item Ensured only authorized employees have access to the application by creating an \textbf{AWS Lambda@Edge} function to intercept and sign valid requests.
-    \item Devised and deployed the infrastructure in TypeScript through \textbf{AWS CDK}, then created efficient algorithms to process data from a custom \textbf{REST API}, so it could scale to handle millions of deliveries.
-    \item Setup a CI/CD pipeline and exceeded requirements in each stage, which lead to the application being pushed to production.
+    \item Supported Team with Servicing the Portfolio of over 50 Accounts of Largest Oil \&
+    Gas Clients.
+    \item Designed, Developed and Supported Paperwork Service Using \textbf{Python3} Libraries \textbf{pandas}, \textbf{docx-mailmerge}, \textbf{nltk} Which Optimized Corresponding Workflow and Made Insurance Documents Production at Least 10 Times Faster.
+    \item Developed Over 50 Other Micro-services for Facilitation of the Workflows Using \textbf{Python3} and \textbf{VBA} Which Facilitated Risk Data Collection \& Wrangling, Consolidation and Analysis.
 \end{bullets}
 \sectionsep
 
-\resumeHeading{University of Windsor}{Research Assistant (RA)}{Windsor, ON}{Feb 2020 - May 2020}
+\resumeHeading{Chubb}{Multinational Underwriter}{Moscow, Russia}{Feb 2014 - Nov 2018}
 \begin{bullets}
-    \item Developed a Personal Health Record (PHR) system in \textbf{\href{https://spring.io/}{Spring}} based on the theoretical model outlined in \underlinedLink{https://research.library.mun.ca/11920}{Mitu Kumar's thesis}.
-    \item Applied the \href{https://link.springer.com/chapter/10.1007/978-3-642-10838-9\_23}{mCP-ABE} encryption scheme using the \href{http://gas.dia.unisa.it/projects/jpbc/}{JPBC} library, so patients have fine-grained access control over their health records with the ability to instantly revoke access.
+    \item Serviced the Portfolio of Large Multinational Clients, Circa 150 Insurance Policies per Year.
+    \item Created and Delivered Various Scale Reports for Clients and Internal Stakeholders.
+    \item Developed and Supported Spreadsheet Weekly Service Progress Reporting Tool Using \textbf{VBA} Which Made the Reports Production at Least 10 Times Faster.
+    \item Developed a Number of Micro-services for Facilitation of the Workflows Using \textbf{VBA} and \textbf{Microsoft Mail Merge} Technology Which Facilitated Risk Data Collection \& Wrangling, Consolidation, Analysis and Insurance Documents Production.
+    \item Designed \textbf{Microsoft Access} Database for Storing Risk Data Based on Multiple Input Sources Received as \textbf{.txt}, \textbf{.csv} and \textbf{ .xls(x)} Files.
 \end{bullets}
 \sectionsep
 
-\resumeHeading{JoaTu}{Software Engineer Intern}{Montreal, QC}{Dec 2018 – May 2019}
+\resumeHeading{Mechel}{Marketing Analyst}{Moscow, Russia}{Jul 2013 - Oct 2013}
 \begin{bullets}
-    \item Rewrote legacy \textbf{Django code} in \textbf{Ruby in Rails} and refactored it to make the system more extensible.
-    \item Created \textbf{UML} diagrams and documented where features were implemented, to make the codebase more maintainable.
+    \item Developed Pricing Models for Sales Department;
+    \item Contributed to Data Pipeline Project Using Data Collection from Various Data Sources, Like IHS McCloskey\'s, S\&P Global Platts etc., Data Consolidation, Interpretation and Analysis.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{Chubb}{Operations Specialist}{Moscow, Russia}{Apr 2012 - Jun 2013}
+\begin{bullets}
+    \item Implemented 10 Insurance Documentation Projects Using \textbf{Microsoft Mail Merge} Technology Based on \textbf{Microsoft Word} Template and \textbf{Microsoft Excel} Spreadsheet Which Made Documentation Production at Least 10 Times Faster \& Facilitated Control Over the Process.
+    \item Operated Corporate Proprietary Database as the Client in Respect of Underwriting Information.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{State University of Management}{Staff Research Scientist}{Moscow, Russia}{Sep 2009 - Jun 2011}
+\begin{bullets}
+    \item Conducted Research in Economic \& Demographic Sciences; Produced the Official Research Report on Funded Work with the Team of Peer Researchers.
+    \item Published 3 Research Papers. One of Those Papers Received Honors Degree Diploma at ``Eureka-2009'' Contest.
 \end{bullets}
 \sectionsep
 
@@ -107,52 +124,28 @@
 %--------------------------------------------------------------
 \section{Projects}
 
-\projectHeading{Automated Spear-Phisher}{https://github.com/Aarif123456/Fb-Twitter-gui}{Python, PySpark, Selenium, Apache, NLP, Big Data}
-A security research tool to send targeted spam messages on either Facebook or Twitter. The program analyzes the feed of its target to increase the effectiveness of the messages.\\
+\projectHeading{stat-can}{https://github.com/avtomatik/stat-can}{Python3, Regular Expressions, Data Science, Web Requests, Website Parsing}
+A \href{https://www.statcan.gc.ca/}{Statistics Canada} Web Scraper for Sources Metadata. The program collects sources' metadata and distributes it to \textbf{Microsoft Excel} Spreadsheet.\\
 \sectionsep
-  
-\projectHeading{Image Repository}{https://github.com/Aarif123456/image\_repository}{Java, PHP, React, TypeScript, Maven, GCP, MySQL}
-A full-stack image repository, where users can store their files. Created a GCP cloud function to implement \href{https://www.cs.utexas.edu/~bwaters/publications/papers/cp-abe.pdf}{CP-ABE} encryption and used it to ensure files are secure at rest.\\
-\sectionsep
-
-\projectHeading{Biometric Dynamic Keystroke Spoofer}{https://github.com/Aarif123456/KeystrokeDynamicsSpoofer}{Python, Object-Oriented Design, CyberSecurity}
-A program that authenticates users based on their typing patterns. And a spoofer that uses the genetic algorithm to mimic the user's typing pattern.
-\sectionsep
-
-\projectHeading{Distributed Key-Value store}{https://github.com/Aarif123456/Distributed-DB}{Java, Distributed System, Computer Networks, Concurrency}
-A distributed key-value store which automatically replicates data in the background while the user manages their data. Implemented a custom P2P protocol to maximize fault tolerance and scalability.\\
-\sectionsep
-
-\projectHeading{War of Weebles}{https://github.com/Aarif123456/GoalOrientedBehaviour}{C\#, Unity, Concurrency, Artificial Intelligence}
-A capture-the-flag-styled shooting game composed of AI-controlled players. The agents change their goals based on various factors, such as their health, current weapon, their personality and what they see.\\
-\sectionsep
-
-% Example using bullets and dates 
-% \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
-% \begin{bullets}
-    % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
-% \end{bullets}
-% \sectionsep
-  
 
 %--------------------------------------------------------------
 %     Skills
 %--------------------------------------------------------------
 \section{Skills}
 \begin{skillList}
-    \singleItem{Languages:}{Java, C++, Python, C\#, PHP, Prolog, Bash, C, Racket, SQL}
+    \singleItem{Main Concepts:}{Deep Learning, Design Patterns, Lazy Evaluation, Machine Learning, Mathematics, Object-Oriented Programming, Statistics}
     \\
-    \singleItem{Web Development:}{React, JavaScript, TypeScript, HTML/CSS}
+    \singleItem{Languages:}{Python3, Bash, SQL, Visual Basic for Applications, HTML/CSS. Interested in Haskell \& Rust}
     \\
-    \singleItem{Technology:}{Git, AWS, GCP, Azure, Docker, Unity, Apache, \LaTeX, MongoDB, DynamoDB, Neo4j}
+    \singleItem{Main Tools:}{Anaconda3, GitKraken, Jupyter Notebook, Linux, Visual Studio Code, pgAdmin4}
+    \\
+    \singleItem{Main Python Libraries/Frameworks:}{Django, Flask, NumPy, TensorFlow, pandas, sklearn, spaCy}
 \end{skillList}
 
-% A more concise alternate 
-% \begin{skillList}
-%     \doubleItem{Languages:}{Java, C++, Python, C\#, PHP, Prolog, Bash, C, Racket}%
-%     {Databases:}{SQL, MongoDB, Neo4j, DynamoDB}
-%     \\
-%     \doubleItem{Web Development:}{JavaScript, TypeScript, React, HTML/CSS}
-%     {Technology:}{Git, AWS, GCP, Azure, Docker, \LaTeX}%
-% \end{skillList}
+
+\section{Links}
+\href{https://stackoverflow.com/users/10215873/alphamu}{Stack Overflow} $|$ \href{https://www.kaggle.com/alphamu}{Kaggle} $|$
+\href{https://www.codewars.com/users/avtomatik}{Codewars} $|$
+\href{https://www.hackerrank.com/kkruscherr}{Hackerrank} $|$
+\href{https://leetcode.com/avtomatik/}{Leetcode}
 \end{document}
